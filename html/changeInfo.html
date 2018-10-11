@@ -5,10 +5,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Trang chủ</title>
+    <title>Cập nhật thông tin cá nhân</title>
     <link rel="stylesheet" href="../css/bootstrap.css">
     <!-- Our Custom CSS -->
     <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/custom.css">
     <!-- Scrollbar Custom CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
     <!-- Anwersome font-->
@@ -92,25 +93,56 @@
                 </div>
             </div>
             </nav>
-            
-        <h2>Lorem ipsum dolor sit amet.</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-        <div class="line"></div>
-
-        <h2>Lorem Ipsum Dolor</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-        <div class="line"></div>
-
-        <h2>Lorem Ipsum Dolor</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-        <div class="line"></div>
-
-        <h3>Lorem Ipsum Dolor</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <!-- Content start -->
+        <div class="card card-default col-md-9" style="margin: auto">
+            <div class="card-body">
+                <h2 style="text-align: center">Cập nhật thông tin cá nhân</h2>
+                <form id="formsuadoi" method="POST">
+                    <label>Họ và tên</label>
+                    <input type="text" id="hovaten">
+                    <br>
+                    <label>Giới tính</label>
+                    <input type="radio" name="gioitinh" value="1"> Nam
+                    <input type="radio" name="gioitinh" value="0"> Nữ
+                    <br>
+                    <label>Ngày sinh</label>
+                    <input type="date" id="ngaysinh">
+                    <br>                   
+                    <label>Nơi sinh</label>
+                    <input type="text" id="noisinh">
+                    <br>
+                    <label>Mã số sinh viên</label>
+                    <input type="text" id="masosinhvien">
+                    <br>
+                    <label>Lớp</label>
+                    <input type="text" id="lop">
+                    <br>
+                    <label>Niên khóa</label>
+                    <input type="text" id="nienkhoa1"> -  
+                    <input type="text" id="nienkhoa2"> 
+                    <br>
+                    <label>Số điện thoại</label>
+                    <input type="tel" id="sodienthoai">
+                    <br>
+                    <label>Địa chỉ email</label>
+                    <input type="email" id="sodienthoai">
+                    <br>
+                    <label>Nơi ở hiện tại</label>
+                    <input type="text" id="noio">
+                    <br>
+                    <label>Công việc hiện tại</label>
+                    <input type="text" id="congviec">
+                    <br>
+                    <label>Nơi đang công tác</label>
+                    <input type="text" id="congty">
+                    <br>
+                    <label>&nbsp;</label>
+                    <input type="button" value="Ghi nhận">
+                    <input type="button" value="Bỏ qua"> 
+                </form>
+            </div>
+        </div>    
+        
     </div>
 </div>
 

@@ -157,11 +157,15 @@ ul.CTAs a {
     width: 100%;
 }
 
-input {
+#searchbar {
     border: none;
 	color: #8c8c8c;
-    width: 100%;
     padding-left:5px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+#searchbar:focus {
+    width: 100%;
 }
 
 
