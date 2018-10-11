@@ -22,3 +22,9 @@ form {
     align-content: center;
 }
 
+.carousel{
+    height: 400;
+} 
+.carousel-item img{
+    height: 400px;
+}
